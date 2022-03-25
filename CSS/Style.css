@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;1,400&display=swap');
+/*Inicio*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor1{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background-color: #03a9f4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+.box_cards_card_inicioMenu{
+    width: 1348px;
+    margin: 0 auto;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+.box_cards_card_inicioMenu li a:hover{
+    background-color: #ef8354;
+}
+.box_cards_card_inicio{
+    display: grid;
+    grid-column: 3/2;
+    padding: 5px;
+    display: inline-block;
+    background-color: purple;
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+    font-style:normal;
+    width: 1349px;
+    height: 1386px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+div.inicioGaleria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px orange 0 6px 20px rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+    background-color: cyan;
+}
+div.inicioGaleria img{
+    width: 100%;
+    height: auto;
+}
+div.inicioGaleria:hover{
+    border: 1px solid lightsalmon;
+    transform: rotate(-5deg);
+}
+div.inicio_piedeFoto_{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(231, 154, 12);
+    padding: 10px;
+}
+.box_cards_card_footer_inicio{
+    background-color: brown;
+    color: chocolate;
+    padding: 10px;
+    width:1349px;
+    height:175px;
+}
+@media screen and (max-width:400px){
+    .contenedor1{
+        width: 100%;
+    }
+}
+/*Autovehiculos*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor2{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background-color: #03a9f4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+.box_cards_card_autovehiculosMenu{
+    width: 1348px;
+    margin: 0 auto;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+.box_cards_card_autovehiculosMenu li a:hover{
+    background-color: #ef8354;
+}
+.box_cards_card_autovehiculos{
+    display: grid;
+    grid-column: 3/2;
+    padding: 5px;
+    display: inline-block;
+    background-color: purple;
+    color: red;
+    font-size: 25px;
+    font-style:normal;
+    width: 1349px;
+    height: 1386px;
+}
+div.autovehiculosGaleria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px orange 0 6px 20px rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+    background-color: cyan;
+}
+div.autovehiculosGaleria img{
+    width: 100%;
+    height: auto;
+}
+div.autovehiculosGaleria:hover{
+    border: 1px solid lightsalmon;
+    transform: rotate(-5deg);
+}
+div.autovehiculos_piedeFoto{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(231, 154, 12);
+    padding: 10px;
+}
+.box_cards_card_footer_autovehiculos{
+    background-color: brown;
+    color: chocolate;
+    padding: 10px;
+    width:1349px;
+    height:175px;
+}
+@media screen and (max-width:400px){
+    .contenedor2{
+        width: 100%;
+    }
+}
+/*Motovehiculos*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor3{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background-color: #03a9f4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+.box_cards_card_motovehiculosMenu{
+    width: 1348px;
+    margin: 0 auto;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+.box_cards_card_motovehiculosMenu li a:hover{
+    background-color: #ef8354;
+}
+.box_cards_card_motovehiculos{
+    display: grid;
+    grid-column: 3/2;
+    padding: 5px;
+    display: inline-block;
+    background-color: purple;
+    color: red;
+    font-size: 25px;
+    font-style:normal;
+    width: 1349px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+div.motovehiculosGaleria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px orange 0 6px 20px rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+    background-color: cyan;
+}
+div.motovehiculosGaleria img{
+    width: 100%;
+    height: auto;
+}
+div.motovehiculosGaleria:hover{
+    border: 1px solid lightsalmon;
+    transform: rotate(-5deg);
+}
+div.motovehiculos_piedeFoto_{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(231, 154, 12);
+    padding: 10px;
+}
+.box_cards_card_footer_motovehiculos{
+    background-color: brown;
+    color: chocolate;
+    padding:10px;
+    width:1349px;
+    height:175px;
+}
+@media screen and (max-width:400px){
+    .contenedor3{
+        width: 100%;
+    }
+}
+/*Registrate*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor4{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background-color: #03a9f4;
+    width: 200%;
+    clear: both;
+    content:'';
+    display: table;
+}
+.box_cards_card_registrateMenu{
+    width: 1348px;
+    margin: 0 auto;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+.box_cards_card_main_registrate{
+    display: grid;
+    grid-column: 3/2;
+    padding: 5px;
+    display: inline-block;
+    background-color: purple;
+    color: red;
+    font-size: 25px;
+    font-style:normal;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    width:1450px;
+    height:710px;
+}
+#Formulario{
+    color: red;
+}
+#Nombre{
+    color: red;
+}
+#Apellido{
+    color: red;
+}
+#E-mail{
+    color: red;
+}
+#Contraseña{
+    color: red;
+}
+#Fecha{
+    color: red;
+}
+#DNI{
+    color: red;
+}
+#Particular{
+    color: red;
+}
+#Gestor{
+    color: red;
+}
+#Acepta{
+    color: red;
+}
+#Provincias{
+    color: red;
+}
+.box_cards_card_footer_registrate{
+    background-color: brown;
+    color: chocolate;
+    padding:10px;
+    width:1349px;
+    height:175px;
+}
+@media screen and (max-width:400px){
+    .contenedor4{
+        width: 100%;
+    }
+}
+/*Sobre Nosotros*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contenedor5{
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header{
+    background-color: #03a9f4;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+.box_cards_card_sobreNosotros_menu{
+    width: 1348px;
+    margin: 0 auto;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 25px 0;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+.box_cards_card_sobreNosotros_menu li a:hover{
+    background-color: #ef8354
+}
+.box_cards_card_sobreNosotros{
+    display: grid;
+    grid-column: 3/2;
+    padding: 5px;
+    display: inline-block;
+    background-color: purple;
+    color: red;
+    font-size: 25px;
+    font-style:normal;
+    text-align: left;
+    width:1348px;
+    height:735px;
+}
+.box_cards_card_footer_sobreNosotros{
+    display: grid;
+    grid-column: 3/2;
+    padding: 10px;
+    display: inline-block;
+    background-color: brown;
+    display: grid;
+    grid-column: 3/2;
+}
+@media screen and (max-width:400px){
+    .contenedor5{
+        width: 100%;
+    }
+}
